@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.9.15)  18 NOV 2014 15:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.28)  18 NOV 2014 15:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -462,6 +462,10 @@ File: images/leksak2.jpg Graphic file (type jpg)
 <use images/leksak2.jpg>
 Package pdftex.def Info: images/leksak2.jpg used on input line 17.
 (pdftex.def)             Requested size: 103.50105pt x 57.62091pt.
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 24.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 24.
 )
 Package babel Info: Redefining swedish shorthand "|
 (babel)             in language  on input line 48.
@@ -482,13 +486,20 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
  (./report.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
-Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 13BF6A6B2724869B7A950EF08604CCBB;687.
+
+
+Package rerunfilecheck Warning: File `report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `report.out':
+(rerunfilecheck)             Before: 13BF6A6B2724869B7A950EF08604CCBB;687
+(rerunfilecheck)             After:  DC2C71424E385A7D5351BBE96AAC8B52;790.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 57.
  ) 
 Here is how much of TeX's memory you used:
- 7964 strings out of 493117
- 120064 string characters out of 6135433
+ 7965 strings out of 493117
+ 120078 string characters out of 6135432
  213933 words of memory out of 5000000
  11311 multiletter control sequences out of 15000+600000
  12742 words of font info for 34 fonts, out of 8000000 for 9000
@@ -502,10 +513,10 @@ local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/lo
 cal/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/loca
 l/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/
 texlive/2014/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on report.pdf (2 pages, 299776 bytes).
+Output written on report.pdf (2 pages, 299863 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
+ 101 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
+ 16 named destinations out of 1000 (max. 500000)
  104 words of extra memory for PDF output out of 10000 (max. 10000000)
 
