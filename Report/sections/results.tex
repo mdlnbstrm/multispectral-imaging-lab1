@@ -23,7 +23,9 @@ Our result from calculating how many pixels in the image (see figure \ref{fig:Te
 \end{figure}
 
 \subsection{Grey scale images, image format and image information}
-Our result from testing the matlabfunction mesh can be seen in figure \ref{fig:meshCar} and our results from testing the matlabfunction surfl can be seen in figure \ref{fig:surflCar}
+The function mesh shows different depths depending on what colour the pixels have (see figure \ref{fig:meshCar}), the function surfl --->What does it really do?<------ (see figure \ref{fig:surflCar}), the functions flipud and fliplr flips the image vertically and horizontally respectively. 
+
+The result of taking the matrix I2 and subtract with I1 we get an almost black image with the edges from the car (see figure \ref{fig:hejsan})
 
 \begin{figure}[h]
 \centering
@@ -40,8 +42,19 @@ Our result from testing the matlabfunction mesh can be seen in figure \ref{fig:m
 	\caption{(a) Matlab function mesh used on the cropped car image. (b) Matlab function surfl used on the cropped car image. }
 	\label{fig:part2}
 \end{figure}
-
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{part2_I1_I2}
+	\label{fig:hejsan}
+	\caption{Subtracting a matrix with it self after shifted 1 pixel}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{part2_mtfdiagram}
+	\label{mtf}
+	\caption{MTF-diagram for the image}
+\end{figure}
 \subsection{Image enhancement}
 
-%\subsection{Colour images}
-%\subsection{IR - Imaging}
+\subsection{Colour images}
+\subsection{IR - Imaging}
