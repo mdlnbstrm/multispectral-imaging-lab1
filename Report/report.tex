@@ -1,0 +1,57 @@
+%-------------------------------------------------------------------------------
+% Document structure for report
+%-------------------------------------------------------------------------------
+\documentclass[a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[swedish]{babel} 
+\usepackage{graphicx}
+\usepackage{subcaption}
+%\usepackage[utf8]{inputenc}
+\graphicspath{ {images/} }
+\usepackage[hidelinks]{hyperref}
+\usepackage{multirow}
+\usepackage{mathtools}
+
+
+%-------------------------------------------------------------------------------
+% Start document with title page
+%-------------------------------------------------------------------------------
+\begin{document}
+
+\title{Laboratory Exercise \\Digital Visible and Infrared Imaging}
+\author{
+	Madeleine Bostr\"{o}m\\
+	dat11mbo@student.lu.se
+	\and
+	Tobias Claesson\\
+	ada10tcl@student.lu.se
+}
+\date{\today}
+\maketitle
+
+%-------------------------------------------------------------------------------
+% Actual document with sections
+%-------------------------------------------------------------------------------
+
+\section{Introduction}
+\input{sections/introduction.tex}
+
+\section{Theory}
+\input{sections/theory.tex}
+
+\section{Method}
+\input{sections/method.tex}
+
+\section{Results}
+\input{sections/results.tex}
+
+\section{Discussion}
+\input{sections/discussion.tex}
+
+%-------------------------------------------------------------------------------
+% End of document - References follow
+%-------------------------------------------------------------------------------
+\clearpage
+\bibliographystyle{plain}
+
+\end{document}
