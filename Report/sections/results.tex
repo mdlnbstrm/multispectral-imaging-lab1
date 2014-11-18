@@ -25,7 +25,9 @@ Our result from calculating how many pixels in the image (see figure \ref{fig:Te
 \subsection{Grey scale images, image format and image information}
 The function mesh shows different depths depending on what colour the pixels have (see figure \ref{fig:meshCar}), the function surfl --->What does it really do?<------ (see figure \ref{fig:surflCar}), the functions flipud and fliplr flips the image vertically and horizontally respectively. 
 
-The result of taking the matrix I2 and subtract with I1 we get an almost black image with the edges from the car (see figure \ref{fig:hejsan})
+The result of taking the matrix I2 and subtract with I1 we get an almost black image with the edges from the car (see figure \ref{fig:I2_I1})
+
+The MTF-values for the whole image system is shown in figure \ref{fig:mtf}
 
 \begin{figure}[h]
 \centering
@@ -45,14 +47,14 @@ The result of taking the matrix I2 and subtract with I1 we get an almost black i
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.5\textwidth]{part2_I1_I2}
-	\label{fig:hejsan}
 	\caption{Subtracting a matrix with it self after shifted 1 pixel}
+	\label{fig:I2_I1}
 \end{figure}
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.5\textwidth]{part2_mtfdiagram}
-	\label{mtf}
 	\caption{MTF-diagram for the image}
+	\label{fig:mtf}
 \end{figure}
 \subsection{Image enhancement}
 
