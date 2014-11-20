@@ -114,6 +114,8 @@ The results for image enhancement is seen in figure \ref{fig:img1new} and \ref{f
 
 \subsection{Colour images}
 The results from using the function anghist2 on a cropped red part (see figure \ref{fig:redCrop}) and a cropped blue part (see figure \ref{fig:blueCrop}) can be seen in figures \ref{fig:redSpec} and \ref{fig:blueSpec} respectively.
+
+We plotted our observations from a cropped blue part of a car first by using a 3D plot RGB space (see figure \ref{fig:cartSpace}) and then by using sperical colour space (see figure \ref{fig:sphereSpace}).
 \begin{figure}[h]
 	\centering
 	\begin{subfigure}[b]{0.4\textwidth}
@@ -140,7 +142,22 @@ The results from using the function anghist2 on a cropped red part (see figure \
 	\caption{Histogram using function \texttt{anghist2}}
 	\label{fig:colour}
 \end{figure}
+\begin{figure}[h]
 
+	\centering
+	\begin{subfigure}[b]{0.4\textwidth}
+		\includegraphics[width=\textwidth]{part4_cartspaceRGB_bluecar}
+		\caption{}
+		\label{fig:cartSpace}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.4\textwidth}	
+		\includegraphics[width=\textwidth]{part4_spherespaceRGB_bluecar_plot}
+		\caption{}
+		\label{fig:sphereSpace}
+	\end{subfigure}
+	\caption{Two different ways to plot observations, (a) RGB space (b) spherical colour space. }
+	\label{fig:part4Sphere}
+\end{figure}
 \subsection{IR - Imaging}
 
 \begin{figure}[h]
