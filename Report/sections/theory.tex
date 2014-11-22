@@ -4,9 +4,15 @@ To measure the resolution we can use different methods such Rayleigh's criterion
 % The ratio between image and object size is known as the magnification for an optical system. 
 % MTF Ratio between input and output modulation. 
 
+\subsection{Grey scale images, image format and image information}
+Every pixel stored in the matrix as unsigned integer, which means that we can encounter some problems when performing mathematical operations, eg 150+150=255 or 10-33=0. For this reason we temporarily convert the matrix using the formula I=double(I)/255. 
+
+When subtracting two images one subtracts each pixel in the first matrix with the corresponding pixel in the other matrix. %http://homepages.inf.ed.ac.uk/rbf/HIPR2/pixsub.htm
+This means that if we subtract to identical images we will only get a black image since the intensity in each pixel will be 0, this also means that we could detect movement in the picture since some pixels will be displaced in the second image and the result will no longer be 0.
 \subsection{Histogram equalization}
 
 \subsection{Colour images}
+
 % Kom på något bättre till rubrik
 
 \subsection{IR - Imaging}
