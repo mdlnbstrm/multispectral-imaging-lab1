@@ -1,7 +1,7 @@
 \subsection{Pixel size, magnification and resolution}
 Our result from calculating how many pixels in the image (see figure \ref{fig:TestChart}) that corresponds to one centimeter were 41. When we calculated the length of a car in the image (see figure \ref{fig:Toy1}) we got the result 10 cm. When comparing the resolution from two images (see figure \ref{fig:Toy1} and \ref{fig:Toy2}) of a object at different distances, we got the result of more pixels per cm when closer to the object.
 
-\begin{figure}[h]
+\begin{figure}
 	\centering
 	\begin{subfigure}[b]{0.3\textwidth}
 		\includegraphics[width=\textwidth]{part1image1}
@@ -29,7 +29,7 @@ The result of taking the matrix I2 and subtract with I1 we get an almost black i
 
 The MTF-values for the whole image system is shown in figure \ref{fig:mtf}
 
-\begin{figure}[h]
+\begin{figure}
 \centering
 	\begin{subfigure}[b]{0.4\textwidth}
 		\includegraphics[width=\textwidth]{part2_mesh_croppedCar2}
@@ -44,13 +44,13 @@ The MTF-values for the whole image system is shown in figure \ref{fig:mtf}
 	\caption{(a) Matlab function \texttt{mesh} used on the cropped car image. (b) Matlab function \texttt{surfl} used on the cropped car image. }
 	\label{fig:part2}
 \end{figure}
-\begin{figure}[h]
+\begin{figure}
 	\centering
 	\includegraphics[width=0.5\textwidth]{part2_I1_I2}
 	\caption{Subtracting a matrix with it self after shifted 1 pixel}
 	\label{fig:I2_I1}
 \end{figure}
-\begin{figure}[h]
+\begin{figure}
 	\centering
 	\includegraphics[width=0.5\textwidth]{part2_mtfdiagram}
 	\caption{MTF-diagram for the image}
@@ -59,7 +59,7 @@ The MTF-values for the whole image system is shown in figure \ref{fig:mtf}
 
 \subsection{Image enhancement}
 The results for image enhancement is seen in figure \ref{fig:img1new} and \ref{fig:img2new} the corresponding histogram is seen in figure \ref{fig:img1histnew} and \ref{fig:img2histnew}. The original images and there histograms can also be found in image \ref{fig:img1} and \ref{fig:img2}.
-\begin{figure}[h]
+\begin{figure}
 	\centering
 	\begin{subfigure}[b]{0.4\textwidth}
 		\includegraphics[width=\textwidth]{IE_img1org}
@@ -85,7 +85,7 @@ The results for image enhancement is seen in figure \ref{fig:img1new} and \ref{f
 	\caption{(a) Original image. (b) Enhanced image. (c) Histogram for original image. (d) Histogram for enhanced image.}
 	\label{fig:img1}
 \end{figure}
-\begin{figure}[h]
+\begin{figure}
 	\centering
 	\begin{subfigure}[b]{0.4\textwidth}
 		\includegraphics[width=\textwidth]{IE_img2org}
@@ -116,7 +116,7 @@ The results for image enhancement is seen in figure \ref{fig:img1new} and \ref{f
 The results from using the function anghist2 on a cropped red part (see figure \ref{fig:redCrop}) and a cropped blue part (see figure \ref{fig:blueCrop}) can be seen in figures \ref{fig:redSpec} and \ref{fig:blueSpec} respectively.
 
 We plotted our observations from a cropped blue part of a car first by using a 3D plot RGB space (see figure \ref{fig:cartSpace}) and then by using sperical colour space (see figure \ref{fig:sphereSpace}).
-\begin{figure}[h]
+\begin{figure}
 	\centering
 	\begin{subfigure}[b]{0.4\textwidth}
 		\includegraphics[width=\textwidth]{part4_bluecarcrop}
@@ -142,7 +142,7 @@ We plotted our observations from a cropped blue part of a car first by using a 3
 	\caption{Histogram using function \texttt{anghist2}}
 	\label{fig:colour}
 \end{figure}
-\begin{figure}[h]
+\begin{figure}
 
 	\centering
 	\begin{subfigure}[b]{0.4\textwidth}
@@ -161,7 +161,7 @@ We plotted our observations from a cropped blue part of a car first by using a 3
 
 \subsection{IR - Imaging}
 The visibility of a hand when using an IR camera depends on the object that blocks the hand from the camera and the results can be seen in figure \ref{fig:hand}. The reflections from a window and a whiteboard can be seen in figure \ref{fig:ref}. The result of heating up a plastic roller with two hands can be seen in figure \ref{fig:heat}.
-\begin{figure}[h]
+\begin{figure}
 	\centering
 	\begin{subfigure}[b]{0.4\textwidth}
 		\includegraphics[width=\textwidth]{white_plasticbag}
