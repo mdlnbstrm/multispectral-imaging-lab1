@@ -8,3 +8,5 @@
 *.gz
 
 *.out
+
+Report/report.log
