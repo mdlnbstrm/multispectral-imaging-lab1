@@ -7,7 +7,7 @@ When using Rayleigh's criterion one find the distance between the images of two 
 PSF describes the response from the imaging system with a point input. In an ideal image a point input is represented as a single pixel. PSF expresses system preferences in the spatial domain and MTF in the frequency domain. The two parameters are related by the Fourier transform, $ MTF = \mathcal{F}(PSF) $. The MTF curve is used to express the spatial frequency response of a system, and expresses normalized contrast as a function of spatial frequency. % http://medim.sth.kth.se/6l2872/F/F9.pdf
 
 \subsection{Grey scale images, image format and image information}
-Every pixel stored in the matrix as unsigned integer, which means that we can encounter some problems when performing mathematical operations, eg 150+150=255 or 10-33=0. For this reason we temporarily convert the matrix using the formula I=double(I)/255. 
+Every pixel is stored in the matrix as unsigned integers, which means that we can encounter some problems when performing mathematical operations, eg 150+150=255 or 10-33=0. For this reason we temporarily convert the matrix using the formula I=double(I)/255. 
 
 When subtracting two images one subtracts each pixel in the first matrix with the corresponding pixel in the other matrix. %http://homepages.inf.ed.ac.uk/rbf/HIPR2/pixsub.htm
 This means that if we subtract to identical images we will only get a black image since the intensity in each pixel will be 0, this also means that we could detect movement in the picture since some pixels will be displaced in the second image and the result will no longer be 0.
