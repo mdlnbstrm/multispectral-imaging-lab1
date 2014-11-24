@@ -116,6 +116,9 @@ The results for image enhancement is seen in figure \ref{fig:img1new} and \ref{f
 The results from using the function \texttt{anghist2} on a cropped red part (see figure \ref{fig:redCrop}) and a cropped blue part (see figure \ref{fig:blueCrop}) can be seen in figures \ref{fig:redSpec} and \ref{fig:blueSpec} respectively.
 
 We plotted our observations from a cropped blue part of a car first by using a 3D plot RGB space (see figure \ref{fig:cartSpace}) and then by using sperical colour space (see figure \ref{fig:sphereSpace}).
+
+We also studied at parts of images before and after dividing them with their own intensities as shown in figures \ref{fig:yellow}, \ref{fig:yellow-after} and \ref{fig:large-cropp}.
+We also tested a method for highlighting selected colour as shown in figure \ref{fig:contrastex}. 
 \begin{figure}
 	\centering
 	\begin{subfigure}[b]{0.4\textwidth}
@@ -187,7 +190,7 @@ We plotted our observations from a cropped blue part of a car first by using a 3
 		\caption{}
 		\label{fig:y-hist-b}
 	\end{subfigure}
-	\caption{(a) Yellow }
+	\caption{(a) A yellow image (b) Mean spectrum of the image (c) Histogram for intensity of red (d) Histogram for intensity of green (e) Histogram for intensity of blue}
 	\label{fig:yellow}
 \end{figure}
 
@@ -219,7 +222,7 @@ We plotted our observations from a cropped blue part of a car first by using a 3
 		\caption{}
 		\label{fig:y-after-hist-b}
 	\end{subfigure}
-	\caption{(a) Yellow }
+	\caption{Same image and corresponding diagram and histogram used in figure \ref{fig:yellow} but after dividing the image with its own intensity}
 	\label{fig:yellow-after}
 \end{figure}
 
@@ -228,14 +231,14 @@ We plotted our observations from a cropped blue part of a car first by using a 3
 	\begin{subfigure}[b]{0.4\textwidth}
 		\includegraphics[width=\textwidth]{div-int/cropp}
 		\caption{}
-		\label{fig:large-cropp}
+		\label{fig:large-cropp-before}
 	\end{subfigure}
 	\begin{subfigure}[b]{0.4\textwidth}
 		\includegraphics[width=\textwidth]{div-int/div-intens}
 		\caption{}
 		\label{fig:large-cropp-after}
 	\end{subfigure}
-	\caption{(a) Before}
+	\caption{Before and after using the same method as in figure \ref{fig:yellow} and \ref{fig:yellow-after}}
 	\label{fig:large-cropp}
 \end{figure}
 
@@ -251,7 +254,7 @@ We plotted our observations from a cropped blue part of a car first by using a 3
 		\caption{}
 		\label{fig:cont}
 	\end{subfigure}
-	\caption{Contrast}
+	\caption{Method for highlighting selected colour throughout the image}
 	\label{fig:contrastex}
 \end{figure}
 
